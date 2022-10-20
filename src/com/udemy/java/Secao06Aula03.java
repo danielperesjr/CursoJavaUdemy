@@ -1,7 +1,7 @@
 package com.udemy.java;
 
 //Seção 06 - Tipos de Dados em Java
-//Aula 02 - Tipos Numéricos - Parte 2 (Inteiros e Reais)
+//Aula 03 - Tipos Numéricos - Parte 2 (Inteiros e Reais)
 
 
 public class Secao06Aula03 {

@@ -4,6 +4,7 @@ package com.udemy.java;
 // Aula 04 - Instrução Switch
 
 public class Secao04Aula04 {
+	
 	public static void main(String[] args) {
 		int numero = 33;
 		
@@ -22,6 +23,6 @@ public class Secao04Aula04 {
 			break;
 		}
 		
-		
 	}
+	
 }

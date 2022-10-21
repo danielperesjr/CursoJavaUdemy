@@ -29,8 +29,37 @@ package com.udemy.java;
 //Retorno (opcional - depende do tipo de retorno);
 //Diferença entre Função e Método: o método depende de uma classe enquanto que a função não;
 
+//Aula 07 - Construtor
+
+//Método especial da classe para construir objetos;
+//O construtor de uma classe sempre tem o mesmo nome da classe;
+//Por padrão a JVM - Java Virtual Machine - cria em tempo de execução, 
+//um construtor vazio na classe (não recebe nenhum parâmetro de entrada);
+//Um construtor vazio sempre tem a seguinte forma: public NomeDaClasse() {}
+//Podemos ter mais de um construtor na classe (vazio e com parâmetros);
+
 
 public class Pessoa {
 	String nome, email;
 	int ano_nascimento;
+	
+	//Construtor Vazio
+	public Pessoa() {
+		
+	}
+	
+	//Construtor com Parâmetros
+	public Pessoa(String nome, String email, int ano_nascimento) {
+		//This == Este Objeto
+		this.nome = nome;
+		this.email = email;
+		this.ano_nascimento = ano_nascimento;
+	}
+	
+	void imprime_informacoes() {
+		System.out.println("Nome: " + this.nome);
+		System.out.println("E-mail: " + this.email);
+		System.out.println("Ano de Nascimento: " + this.ano_nascimento);
+	}
+	
 }

@@ -10,7 +10,17 @@ package com.udemy.java;
 //O nome da classe Java deve ser o mesmo nome do arquivo Java;
 //Tudo o que estiver dentro das "{}" faz parte da classe;
 
+//Aula 04 - Atributos
+
+//Características das classes/moldes/modelos de dados;
+//Podemos entender atributos como variáveis da classe, mas nunca devemos chamá-los de variáveis;
+//Uma outra forma de nomenclatura para os atributos são os estados;
+//O nome dos atributos inicia com letra minúscula;
+//O nome não deve conter acentuação, caracteres especiais e espaçamento;
+//Os atributos podem ser de qualquer tipo de dado, incluindo arrays;
+
 
 public class Pessoa {
-
+	String nome, email;
+	int ano_nascimento;
 }

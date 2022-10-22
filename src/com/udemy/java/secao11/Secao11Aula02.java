@@ -1,5 +1,14 @@
 package com.udemy.java.secao11;
 
+//Seção 11 - Modificadores de Acesso
+//Aula 02 - O que é o encapsulamento?
+
+//Getters e Setters
+//Getter é um método público que serve para consultar dados;
+//A nomenclatura desses métodos é getNome_do_atributo();
+//O encapsulamento é a proteção adicionada nos atributos para que não seja realizado nenhum acesso,
+//que não esteja condizente com o que deveria ocorrer no programa (exemplo: hard code para alterar saldo);
+
 public class Secao11Aula02 {
 
 	public static void main(String[] args) {

@@ -3,7 +3,9 @@ package com.udemy.java.secao11;
 //Seção 11 - Modificadores de Acesso
 //Aula 04 - Private
 
+//Público,  acessível por todo o projeto.
 //Privado à própria classe, ou seja, só temos acesso ao método ou atributo privado dentro da própria classe onde foi declarado.
+//Protegido, só temos acesso ao método ou atributo dentro do mesmo pacote onde foi declarado.
 
 public class Secao11Aula04 {
 	public static void main(String[] args) {

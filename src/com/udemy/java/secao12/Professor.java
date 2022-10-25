@@ -10,6 +10,7 @@ public class Professor extends Pessoa{
 		this.matricula = matricula;
 	}
 	
+	//Overriding / Sobrescrita de Método
 	public String getNome() {
 		return "Professor: " + super.getNome();
 	}
@@ -22,6 +23,7 @@ public class Professor extends Pessoa{
 		this.matricula = matricula;
 	}
 	
+	//Overriding / Sobrescrita de Método
 	public String toString() {
 		return super.toString() + "\nMatrícula: " + this.matricula;
 	}

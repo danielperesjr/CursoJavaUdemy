@@ -11,6 +11,7 @@ public class Aluno extends Pessoa{
 		this.ra = ra;
 	}
 	
+	//Overriding / Sobrescrita de Método
 	public String getNome() {
 		return "Aluno: " + super.getNome();
 	}
@@ -23,6 +24,7 @@ public class Aluno extends Pessoa{
 		this.ra = ra;
 	}
 	
+	//Overriding / Sobrescrita de Método
 	public String toString() {
 		return super.toString() + "\nRA: " + this.ra;
 	}

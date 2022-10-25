@@ -40,10 +40,12 @@ public class Pessoa {
 		this.ano_nascimento = ano_nascimento; 
 	}
 	
+	//Overriding / Sobrescrita de Método
 	public String toString() {
 		return "Nome: " + this.nome + "\nAno Nascimento: " + this.ano_nascimento;
 	}
 	
+	//Overloading / Sobrecarga de Método
 	public void mensagem() {
 		System.out.println("Essa é a minha mensagem!");
 	}

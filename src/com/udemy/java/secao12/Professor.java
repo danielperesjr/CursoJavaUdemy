@@ -10,6 +10,10 @@ public class Professor extends Pessoa{
 		this.matricula = matricula;
 	}
 	
+	public String getNome() {
+		return "Professor: " + super.getNome();
+	}
+	
 	public String getMatricula() {
 		return this.matricula;
 	}
@@ -17,6 +21,9 @@ public class Professor extends Pessoa{
 	public void setMatricula(String matricula) {
 		this.matricula = matricula;
 	}
-
 	
+	public String toString() {
+		return super.toString() + "\nMatrícula: " + this.matricula;
+	}
+
 }

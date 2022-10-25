@@ -7,6 +7,8 @@ public class Pessoa {
 	private String nome, email;
 	private int ano_nascimento;
 	
+	public Pessoa() {}
+	
 	public Pessoa(String nome, String email, int ano_nascimento) {
 		this.nome = nome;
 		this.email = email;
@@ -40,6 +42,14 @@ public class Pessoa {
 	
 	public String toString() {
 		return "Nome: " + this.nome + "\nAno Nascimento: " + this.ano_nascimento;
+	}
+	
+	public void mensagem() {
+		System.out.println("Essa é a minha mensagem!");
+	}
+	
+	public void mensagem(String msg) {
+		System.out.println(msg);
 	}
 	
 }

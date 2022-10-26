@@ -21,5 +21,9 @@ public class Conta {
 		return this.cliente;
 	}
 	
+	public static int proximaConta() {
+		return Conta.contador;
+	}
+	
 	
 }

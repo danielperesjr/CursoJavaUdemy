@@ -12,9 +12,9 @@ public class Secao12Aula02 {
 
 	public static void main(String[] args) {
 	
-		Pessoa p1 = new Pessoa("Pedro da Silva", "pedro@gmail.com", 1987);
+		//Pessoa p1 = new Pessoa("Pedro da Silva", "pedro@gmail.com", 1987);
 		
-		System.out.println(p1.getNome());
+		//System.out.println(p1.getNome());
 		
 		Aluno a1 = new Aluno("Vanessa da Silva", "vanessa@gmail.com", 2001, "123456");
 		

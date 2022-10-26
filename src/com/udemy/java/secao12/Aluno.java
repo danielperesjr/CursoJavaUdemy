@@ -29,4 +29,9 @@ public class Aluno extends Pessoa{
 		return super.toString() + "\nRA: " + this.ra;
 	}
 
+	@Override
+	public void outra_mensagem(String texto) {
+		System.out.println(texto);
+	}
+
 }

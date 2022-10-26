@@ -9,11 +9,11 @@ public class Secao12Aula03 {
 
 	public static void main(String[] args) {
 	
-		Pessoa p1 = new Pessoa("Pedro da Silva", "pedro@gmail.com", 1987);
+		//Pessoa p1 = new Pessoa("Pedro da Silva", "pedro@gmail.com", 1987);
 		
-		System.out.println(p1);
-		System.out.println(p1.getNome());
-		System.out.println("\n");
+		//System.out.println(p1);
+		//System.out.println(p1.getNome());
+		//System.out.println("\n");
 		
 		Aluno a1 = new Aluno("Vanessa da Silva", "vanessa@gmail.com", 2001, "123456");
 		

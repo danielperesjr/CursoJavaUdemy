@@ -10,11 +10,11 @@ public class Secao12Aula04 {
 
 	public static void main(String[] args) {
 		
-		Pessoa p1 = new Pessoa();
+		//Pessoa p1 = new Pessoa();
 		
-		p1.mensagem();
+		//p1.mensagem();
 		
-		p1.mensagem("Minha mensagem é diferente...");
+		//p1.mensagem("Minha mensagem é diferente...");
 
 	}
 

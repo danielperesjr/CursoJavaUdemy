@@ -30,11 +30,20 @@ public class Conta {
 		}
 	}
 	
+	/**
+	 * Método para realizar depósito
+	 * 
+	 * @param valor a ser depositado
+	 */
 	public void depositar(float valor) {
 		this.saldo = this.saldo + valor;
 	}
 	
-	//Método getter do atributo saldo
+	/**
+	 * Método getter do atributo saldo
+	 * 
+	 * @return a soma do saldo + limite
+	 */
 	public float getSaldo() {
 		return this.saldo + this.limite;
 	}

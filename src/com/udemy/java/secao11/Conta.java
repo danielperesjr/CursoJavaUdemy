@@ -16,6 +16,7 @@ public class Conta {
 	public void sacar(float valor) {
 		if(valor <= this.saldo) {
 			this.saldo = this.saldo - valor;
+			System.out.println("Saque realizado com sucesso.");
 		}else if(valor <= (this.saldo + this.limite)) {
 			float val_ret = this.saldo - valor;
 			if(val_ret < 0) {
@@ -23,6 +24,7 @@ public class Conta {
 			}
 			val_ret = this.limite + val_ret;
 			this.limite = val_ret;
+			System.out.println("Saque realizado com sucesso.");
 		}else {
 			System.out.println("Saldo insuficiente.");
 		}

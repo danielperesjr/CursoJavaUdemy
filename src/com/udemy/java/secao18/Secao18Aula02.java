@@ -12,8 +12,8 @@ public class Secao18Aula02 {
 
 	public static void main(String[] args) {
 		
-		Cliente cli1 = new Cliente("Angelina Jolie", "Rua da Paz, 1234");
-		Cliente cli2 = new Cliente("Felicity Jones", "Rua da 2, 5678");
+		Cliente cli1 = new Cliente(18, "Angelina Jolie", "Rua da Paz, 1234");
+		Cliente cli2 = new Cliente(19, "Felicity Jones", "Rua da 2, 5678");
 		
 		Conta c1 = new Conta(1, 200, 300, cli1);
 		Conta c2 = new Conta(2, 200, 300, cli2);

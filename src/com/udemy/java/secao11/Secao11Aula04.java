@@ -10,12 +10,12 @@ package com.udemy.java.secao11;
 public class Secao11Aula04 {
 	public static void main(String[] args) {
 	
-		Cliente cli1 = new Cliente("Felicity Jones", "Rua Qualquer, 123");
+		Cliente cli1 = new Cliente(24, "Felicity Jones", "Rua Qualquer, 123");
 		
 		System.out.println("Nome: " + cli1.getNome());
 		System.out.println("Endereço: " + cli1.getEndereco());
 		
-		Cliente cli2 = new Cliente("Angelina Jolie", "Rua Qualquer, 1234");
+		Cliente cli2 = new Cliente(47, "Angelina Jolie", "Rua Qualquer, 1234");
 		
 		System.out.println("Nome: " + cli2.getNome());
 		System.out.println("Endereço: " + cli2.getEndereco());

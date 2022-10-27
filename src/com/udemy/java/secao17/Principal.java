@@ -13,7 +13,7 @@ import com.udemy.java.secao11.Conta;
 
 public class Principal {
 
-	static Cliente cliente = new Cliente("Angelina Jolie", "Rua da Paz, 45");
+	static Cliente cliente = new Cliente(18, "Angelina Jolie", "Rua da Paz, 45");
 	static Conta conta = new Conta(1, 200, 300, cliente);
 	static Scanner teclado = new Scanner(System.in);
 	

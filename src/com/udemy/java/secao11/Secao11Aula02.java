@@ -12,8 +12,8 @@ package com.udemy.java.secao11;
 public class Secao11Aula02 {
 
 	public static void main(String[] args) {
-		Cliente joao = new Cliente("João da Silva", "Rua da Paz, 45");
-		Cliente maria = new Cliente("Maria da Silva", "Rua da Paz, 45");
+		Cliente joao = new Cliente(33, "João da Silva", "Rua da Paz, 45");
+		Cliente maria = new Cliente(27, "Maria da Silva", "Rua da Paz, 45");
 		
 		Conta conta_joao = new Conta(1, 100.0f, 200.0f, joao);
 		Conta conta_maria = new Conta(2, 300.0f, 500.0f, maria);

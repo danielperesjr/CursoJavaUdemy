@@ -12,6 +12,7 @@ public class Secao08Aula02 {
 	
 	static Scanner teclado = new Scanner(System.in);
 	
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		int qtd;
 		

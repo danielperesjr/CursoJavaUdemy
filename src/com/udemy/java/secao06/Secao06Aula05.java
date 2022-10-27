@@ -5,6 +5,7 @@ package com.udemy.java.secao06;
 
 public class Secao06Aula05 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		//Tipos Primitivos
 		boolean verdadeiro = true;

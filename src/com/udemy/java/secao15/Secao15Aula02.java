@@ -9,6 +9,7 @@ package com.udemy.java.secao15;
 
 public class Secao15Aula02 {
 
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		
 		Conta c1 = new Conta("Angelina Jolie");

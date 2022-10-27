@@ -8,6 +8,7 @@ package com.udemy.java.secao09;
 
 public class Secao09Aula06 {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		int numero = 4;
 		

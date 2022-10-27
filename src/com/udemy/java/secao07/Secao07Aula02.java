@@ -4,6 +4,7 @@ package com.udemy.java.secao07;
 //Aula 02 - Vetores - Parte 1
 
 public class Secao07Aula02 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		//Declarando um Vetor
 		int vetor[];

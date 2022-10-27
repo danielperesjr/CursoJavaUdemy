@@ -4,6 +4,7 @@ package com.udemy.java.secao07;
 //Aula 04 - Matrizes - Parte 1
 
 public class Secao07Aula04 {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		//Declaração
 		int outros_numeros[][];

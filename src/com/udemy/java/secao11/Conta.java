@@ -35,7 +35,15 @@ public class Conta {
 	 * 
 	 * @param valor a ser depositado
 	 */
-	public void depositar(float valor) {
+//	//Forma 1 - Sincronismo de Thread
+//	public void depositar(float valor) {
+//		synchronized (this) {
+//			this.saldo = this.saldo + valor;
+//		}
+//	}
+	
+	//Forma 2 - Sincronismo de Thread
+	public synchronized void depositar(float valor) {
 		this.saldo = this.saldo + valor;
 	}
 	

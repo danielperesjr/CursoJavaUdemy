@@ -59,7 +59,7 @@ public class Banco {
 		case 6:
 			System.out.println("Até a próxima!");
 			Utils.pausar(2);
-			Banco.menu();
+			System.exit(0);
 			break;
 		default:
 			System.out.println("Opção inválida.");

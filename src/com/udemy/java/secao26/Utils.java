@@ -15,6 +15,7 @@ import java.util.concurrent.TimeUnit;
 public class Utils {
 
 	static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+	@SuppressWarnings("deprecation")
 	static NumberFormat nf = new DecimalFormat("R$ #,##0.00", new DecimalFormatSymbols(new Locale("pt", "BR")));
 	
 	public static String dateParaString(Date data) {
